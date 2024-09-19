@@ -15,18 +15,21 @@ li {
 }
 
 /* Styling af navigation bar */
-ul {
+.navbar {
   position: sticky;
   width: 100%;
   top: 0;
   left: auto;
   background-color: rgba(255, 255, 255, 0.3); /* Transparent background */
-  padding: 15px 0;
   z-index: 1000;
-  text-align: center;
-  font-size: 18px;
+}
+
+.menu-list {
   display: flex;
   justify-content: space-around;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0;
 }
 
 a {
